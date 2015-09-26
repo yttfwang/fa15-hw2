@@ -1,0 +1,8 @@
+<%if @name.blank? && @adj.blank? %>
+  <h1><%= @text %></h1>
+<% else %>
+  <h1><%= @name %> is <%= @adj %></h1>  
+<% end %>
+<!-- else
+  render :text =>
+end -->
